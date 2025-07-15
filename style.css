@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.item {
+  width: calc(50% - 20px);
+}
+.item img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+@media(max-width:600px){
+  .item { width: 100%; }
+}
